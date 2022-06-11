@@ -1,7 +1,6 @@
 # **Lobanova Angelina**  
 ## Junior Frontend Developer  
-<img src="https://avatars.githubusercontent.com/u/106955412?v=4" alt="girl" width=200px heihgt=200px>  
-
+![girl](https://avatars.githubusercontent.com/u/106955412?v=4) 
 ***
 ### Contact information:    
 **Telephone:** +998 91 0088771    
