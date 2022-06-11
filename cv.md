@@ -20,38 +20,45 @@ I have always strived for a conscious approach to personal and professional deve
 * VS Code  
 * Git, GitHub    
 ### Code example:  
+```
+h1{
+  font-family: 'Tahoma';
+  text-align: center;
+  color: aliceblue;
+}
 
-```<!doctype html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, 
-initial-scale=1.0">
-<meta charset="UTF-8"> 
-    <link href="style-1.css" rel="stylesheet">
-    <title>Learning with youtube</title>
-</head>
-<body>
-    <header>
-        <h1> Learning how to code with youtube </h1>
-        <h2> HTML & CSS Full Course </h2>
-    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=536s&ab_channel=SuperSimpleDev" 
-    target="_blank"> The Youtube Video
-    </a>
-    </header>  
-```            
-### Work experience:    
-**Sells** 07/01/20 - 05/02/22 - **Office manager**          
+h4{
+  color: aliceblue;
+}
+body{
+  background-color: rgb(79, 129, 160);
+}
+ul{
+  color: aliceblue;
+  background:linear-gradient(90deg, rgb(82, 82, 195),
+  rgb(154, 21, 154),rgb(165, 46, 66),salmon);
+  filter:grayscale(20%);
+  border: solid aliceblue 4px;
+  border-radius: 0 40px 40px 0;
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5% 10%
+}
+```
+### Work experience:      
+**Sells** 07/01/20 - 05/02/22 - **Office manager**            
 Tracking and ordering necessary products and office supplies to support the office.  
 Meeting office guests. Organization of meetings with company partners.    
 Maintenance of social networks of the company. Preparation of templates in FIGMA.  
 Notification of employees about internal events of the company.  
-Fulfillment of various orders of superiors, related to the work of the company.    
-### Courses:    
+Fulfillment of various orders of superiors, related to the work of the company.      
+### Courses:      
 * JavaScript Manual on learnjavascript.ru (in progress) 
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress) 
-### Languages:    
+### Languages:      
 * Russian - native 
 * English - C1, according to [efset.org](https://www.efset.org/) 
-### Projects     
+### Projects       
 * My first project is this 
 [CV](https://LunarAngelina.github.io/rsschool-cv/cv)
