@@ -45,7 +45,8 @@ ul{
   margin-left: 10px;
   padding: 5% 10%
 }
-```
+```  
+  
 ### Work experience:      
 **Sells** 07/01/20 - 05/02/22 - **Office manager**            
 Tracking and ordering necessary products and office supplies to support the office.  
