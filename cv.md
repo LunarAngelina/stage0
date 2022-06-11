@@ -38,7 +38,7 @@ initial-scale=1.0">
     target="_blank"> The Youtube Video
     </a>
     </header>  
-  ```   
+  ```
   
 ### Work experience:  
 **Sells** 07/01/20 - 05/02/22 - **Office manager**        
