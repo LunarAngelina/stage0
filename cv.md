@@ -1,6 +1,7 @@
 # **Lobanova Angelina**  
 ## Junior Frontend Developer  
-![girl](https://avatars.githubusercontent.com/u/106955412?v=4) 
+<img src="https://avatars.githubusercontent.com/u/106955412?v=4" alt="girl" width=200px heihgt=200px>  
+
 ***
 ### Contact information:    
 **Telephone:** +998 91 0088771    
@@ -37,22 +38,20 @@ initial-scale=1.0">
     target="_blank"> The Youtube Video
     </a>
     </header>  
-  ```
-  
-### Work experience:  
-**Sells** 07/01/20 - 05/02/22 - **Office manager**        
+```            
+### Work experience:    
+**Sells** 07/01/20 - 05/02/22 - **Office manager**          
 Tracking and ordering necessary products and office supplies to support the office.  
 Meeting office guests. Organization of meetings with company partners.    
 Maintenance of social networks of the company. Preparation of templates in FIGMA.  
 Notification of employees about internal events of the company.  
-Fulfillment of various orders of superiors, related to the work of the company.  
-
-### Courses:  
+Fulfillment of various orders of superiors, related to the work of the company.    
+### Courses:    
 * JavaScript Manual on learnjavascript.ru (in progress) 
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress) 
-### Languages:  
+### Languages:    
 * Russian - native 
 * English - C1, according to [efset.org](https://www.efset.org/) 
-### Projects   
+### Projects     
 * My first project is this 
 [CV](https://LunarAngelina.github.io/rsschool-cv/cv)
