@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+
+  background-color: #97b1d0;
+}
+
+#upper-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+.nav-bar {
+  padding: 20px;
+
+  text-decoration: none;
+
+  color: #b55501;
+}
+
+ #nav-bar {
+  display: flex;
+  flex-direction: row;
+ }
+
+ @media (max-width: 800px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
+
+ main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+ footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+ }
+
+ .ul-contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  list-style-position: inside;
+
+  margin: 0;
+  padding: 0;
+ }
+
+ .flex-contact {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+ 
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+ }
+
+ @media (max-width: 800px) {
+  .flex-contact {
+    flex-direction: column;
+  }
+}
+
+ .item-contact {
+  margin: 5px;
+ }
+
+h1 {
+  margin: 0;
+
+  font-family: Haettenschweiler, serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+
+  font-family: Haettenschweiler, serif;
+  font-size: 2.2em;
+  text-align: center;
+  text-decoration: overline;
+}
+
+h3 {
+  font-family: Haettenschweiler, serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+h4 {
+  font-family: Haettenschweiler, serif;
+  font-size: 1.5em;
+}
+
+li {
+  padding: 10px;
+}
+.avatar {
+  height: 200px;
+  width: 200px;
+
+  margin: 20px;
+
+  border-radius: 100px;
+  border: 3px solid #b55501;
+}
+
+.rs-logo {
+  width: 150px;
+}

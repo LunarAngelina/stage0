@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head> 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <title>CV Lobanova Angelina</title>
   </head>
+
   <body>
-    <header>
+
+    <header id="upper-block">
       <h1>Lobanova Angelina</h1>
       <h2>Junior Frontend Developer</h2>
-      <img src="https://avatars.githubusercontent.com/u/106955412?v=4" alt="girl" width=200 heihgt=200> 
-      <nav class="navbar">
-        <a href="#contact-info">Contacts</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#work-experience">Work Experience</a>
-        <a href="#code-example">Code Example</a>
-        <a href="#languages">Languages</a>
-        <a href="#projects">Projects</a>
+      <img src="https://avatars.githubusercontent.com/u/106955412?v=4" alt="girl" class="avatar"> 
+      <nav id="nav-bar">
+        <a href="#contact-info" class="nav-bar">Contacts</a>
+        <a href="#about" class="nav-bar">About</a>
+        <a href="#skills" class="nav-bar">Skills</a>
+        <a href="#work-experience" class="nav-bar">Work Experience</a>
+        <a href="#code-example" class="nav-bar">Code Example</a>
+        <a href="#languages" class="nav-bar">Languages</a>
+        <a href="#projects" class="nav-bar">Projects</a>
       </nav>
     </header>
 
@@ -27,15 +30,18 @@
       <header>
         <h3>Contact information</h3>
       </header>
-        <ul>
-        <li>Telephone: +998 91 0088771</li>
-        <li>Email: alunaloba@gmail.com</li>
-        <li>Telegram: @lunarangelina</li>
-        <li>Discord: Angelina (@lunarangelina)</li>
+      <div class="flex-contact">
+        <ul class="ul-contact">
+        <li class="item-contact">Telephone: +998 91 0088771</li>
+        <li class="item-contact">Email: alunaloba@gmail.com</li>
+        <li class="item-contact">Telegram: @lunarangelina</li>
+        <li class="item-contact">Discord: Angelina (@lunarangelina)</li>
         <li> 
-          <a href="https://www.linkedin.com/in/angelina-lobanova-2b4446234/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/angelina-lobanova-2b4446234/" class="item-contact">LinkedIn</a>
         </li>
       </ul>
+    </div>
+
     </article>
 
     <section id="about">
@@ -141,7 +147,8 @@
   <footer>
     <p>© 2022 by Lobanova Angelina</p>
     <a href="https://github.com/LunarAngelina">GitHub</a>
-    <img src="https://rs.school/images/rs_school_js.svg" alt="RS-school logo">
+    <a href="https://rs.school/js/">Курс «JavaScript/Front-end»</a>
+    <img src="https://rs.school/images/rs_school_js.svg" alt="RS-school logo" class="rs-logo">
   </footer>
 
   <script src="app.js"></script>
