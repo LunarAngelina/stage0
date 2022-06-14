@@ -53,31 +53,26 @@
  .ul-contact {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-
   list-style-position: inside;
-
-  margin: 0;
-  padding: 0;
  }
 
  .flex-contact {
   margin-left: 100px;
   margin-right: 100px;
-  padding: 20px;
+  padding: 10px;
  
   border: 2px solid #ffffff;
   border-radius: 20px;
  }
 
  @media (max-width: 800px) {
-  .flex-contact {
+  .ul-contact {
     flex-direction: column;
   }
 }
 
  .item-contact {
-  margin: 5px;
+  flex-basis: 20%;
  }
 
 h1 {
