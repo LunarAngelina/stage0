@@ -144,6 +144,7 @@ html {
   font-size: 16px;
   line-height: 1.2rem;
   color: #0D606F;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -229,7 +230,6 @@ img {
   font-weight: 400;
   line-height: 1.2em;
   color: #ffffff;
-
 }
 
 .header__list {
@@ -249,6 +249,7 @@ img {
 .header__link {
   text-decoration: none;
   color: #ffffff;
+  transition: 1s all;
 }
 
 .header__link:hover,
@@ -648,7 +649,7 @@ background-color: #ffffff;
 .footer_icon-img {
   max-width: 2.1rem;
   max-height: 2.1rem;
-  margin-right: 1.25rem;
+  margin-left: 1.25rem;
 
 }
 /* footer style end */
