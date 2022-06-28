@@ -151,13 +151,13 @@ max-width: 1200px;
 margin: 0 7.5rem;
 }
 
-img. {
+img {
   max-width: 100%;
   height: auto;
 }
 
 /* media  */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   html {
     font-family: 'Aleo';
     font-style: normal;
@@ -271,13 +271,15 @@ img. {
   background: #0D606F;
   border: none;
   border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
+  0px 2px 3px rgba(13, 96, 111, 0.16);
+  transition: 0.7s all;
 }
 
 .header__button:hover,
 .header__button:focus,
 .header__button:active {
-  opacity: 0.7;
+  background: #074b57;
   cursor: pointer;
   box-shadow: none; 
 }
@@ -287,8 +289,7 @@ img. {
 /* preview style start */
 .preview {
   min-height: 100vh;
-  background: url(C:/Users/Lunarchelli/Desktop/Ангелина/RS-school/rsschool-cv/travel/images/intro-background-big.jpg) 
-  no-repeat center;
+  background: url(../images/intro-background-big.jpg) no-repeat center;
   background-size: cover;
   cursor: default;
 }
@@ -298,7 +299,7 @@ img. {
   margin-bottom: 0.57em;
   max-width: 11.1em;
   
-  font-family: 'Aleo' sans-serif;
+  font-family: 'Aleo';
   font-style: normal;
   font-weight: 700;
   
@@ -370,6 +371,12 @@ img. {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.7s all;
+}
+
+.preview__form-button:hover,
+.preview__form-button:focus {
+ background: #074b57;
 }
 
 /* preview style end */
@@ -500,22 +507,33 @@ background-color: #ffffff;
   background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
- }
+
+  cursor: pointer;
+  transition: 0.7s all;
+}
+
+.section__button:hover,
+.section__button:focus {
+ opacity: 0.6;
+}
 
 /* destination style end */
 
 .background-wrapper {
   position: relative;
+
   max-width: 100%;
-  height: 85rem;
   max-height: 100%;
-  background: url(../images/footage-background.jpg) no-repeat 100% center;
-  object-fit: cover;
+  background-image: url(../images/footage-background.jpg);
+  background-size: 100vw 1331px;
+  background-position: bottom;
+  object-fit: fill;
+  background-repeat: no-repeat;
   
 }
 
 .background-wrapper::before {
-  height: 82rem;
+  height: 79.4rem;
   width: 100%;
   display: block;
   content: '';
@@ -528,26 +546,23 @@ background-color: #ffffff;
 /* stories style start */
 
 .stories {
-  position: absolute;
-  top: 0;
-  transform: translateY(-10rem);
-  max-height: 100vh;
+  margin: 0 7.5rem;
+  transform: translateY(-5rem);
+  max-height: 86.5rem;
+  
 }
 
 .stories__title {
-  padding-top: 5rem;
-  padding-bottom: 3.25rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5.75rem;
   width: 100%;
 }
 
 .section__grid-container {
   display: grid;
-  grid-template:  repeat(3, 1fr);
+  grid-template-columns:  25rem auto auto;
   row-gap: 1.87rem;
-
-  
 }
+
 .stories__img {
   max-width: 25rem;
   filter: drop-shadow(0px 4px 4px #0D606F);
@@ -581,35 +596,46 @@ background-color: #ffffff;
   font-size: 1.25rem;
   
   color: #0D606F;
+
+  transition: 0.4s all;
+}
+
+.stories__image-desc--ref:hover,
+.stories__image-desc--ref:focus {
+  color: #43aabc;
 }
 
 .stories__button {
   margin-top: 2.5rem;
-  margin-bottom: 3.5rem;
 }
 /* stories style end */
 
 /* footer style start */
-.footer__wrap {
-  position: relative;
-  transform: translateY(-3.2rem);
-  background: inherit;
-}
 
-.footer__grid-container {
-  display: grid;
-  margin-bottom: 0;
-  grid-template-areas: "item-1 item-2 item-3";
-  justify-items: center;
+.footer__wrap {
+  position: absolute;
+  right: 7.5rem;
+  bottom: 0;
+  
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+  
+
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+
+
 }
 
 .footer__ref {
-  padding: 1.25rem;
+  margin-right: 13.5rem;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
+  text-align: center;
   grid-area: item-2;
 
   color: #FFFFFF;
