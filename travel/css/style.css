@@ -148,8 +148,7 @@ html {
 }
 
 .wrapper {
-max-width: 1200px;
-margin: 0 7.5rem;
+margin: 0 8.4vw;
 }
 
 img {
@@ -188,34 +187,33 @@ img {
 /* header style start */
 .header {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  max-height: 5.6rem;
+  top: 0;
+  left: 0;
+  height: 5.62rem;
   width: 100%;
   z-index: 100;
+  margin-bottom: 2rem;
 
   background-color: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.header_active {
+  background-color: rgba(50, 134, 147, 0.9);
 }
 
 .header__wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 0;
   justify-content: space-between;
-  align-content: space-around;
-  align-items: baseline;
-
-  margin: 0 7.5rem;
-  padding-top: 1.56em;
-  padding-bottom: 2.1em;
-
+  align-items: center;
 }
 
 /* logo  */
 .header__logo {
-  flex-basis: 13.5rem;
-  
+  padding-right: 9.87rem;
 }
 
 .header__logo-link {
@@ -228,26 +226,29 @@ img {
 }
 
  /* navigation  */
-.header__nav {
-  margin: 1em;
 
+ .header__nav-wrap {
+  padding-right: 11.6rem;
+ }
+
+.header__nav {
   font-family: 'Red Hat Text';
   font-style: normal;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.2em;
+  line-height: 1.3em;
   color: #ffffff;
 }
 
 .header__list {
   display: flex;
   flex-direction: row;
-  
+
   list-style: none;
 }
 
 .header__list-item {
-  margin-right: 42px;
+  margin-right: 3rem;
 }
 .header__list-item:last-child {
   margin-right: 0;
@@ -265,20 +266,17 @@ img {
   opacity: 0.7;
 }
 
-/* button  */
 .header__button {
-  padding: 10px 30px;
+  padding: 0.65rem 2rem;
 
   font-family: 'Red Hat Text';
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.2;
+  font-size: 1rem;
   color: #ffffff;
 
   background: #0D606F;
   border: none;
   border-radius: 10px;
+  margin: 1.5rem 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
   0px 2px 3px rgba(13, 96, 111, 0.16);
   transition: 0.7s all;
@@ -305,7 +303,7 @@ img {
 
 .preview__title {
   padding-top: 7.5rem;
-  margin-bottom: 0.57em;
+  margin-bottom: 2.1rem;
   max-width: 11.1em;
   
   font-family: 'Aleo';
@@ -318,13 +316,13 @@ img {
 }
 
 .preview__subtitle {
-  margin-bottom: 1.91em;
+  margin-bottom: 2.9rem;
   
   font-family: 'Aleo';
   font-style: italic;
   font-weight: 700;
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.3em;
 
   color: #ffffff;
 }
@@ -332,21 +330,21 @@ img {
 /* form  */
 .preview__form-wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
 }
 
 .preview__form {
   max-height: 5.9rem;
   max-width: 55.75rem;
-  padding: 1.12rem;
 
   background: rgba(255, 255, 255, 0.7);
   border-radius: 16px;
 }
 
-.preview__form .preview__form-input {
+.preview__form-input {
   flex: 1;
-  padding-left: 2.05em;
+  padding: 2rem 2.5rem;
 
   font-family: 'Aleo';
   font-style: italic;
@@ -365,6 +363,7 @@ img {
 }
 
 .preview__form-button {
+  margin: 1.12rem;
   padding: 0.41em 1.3em;
 
   font-family: 'Red Hat Text';
@@ -409,18 +408,33 @@ background-color: #ffffff;
 
 .steps__title {
   padding-top: 5rem;
-  margin-bottom: 1em;
+  margin-bottom: 2.6rem;
 }
 
-.steps__icons {
+.steps__grid-wrapper {
   display: grid;
-  grid-gap: 1.87rem;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5.3rem;
+  margin-bottom: 6rem;
  
 }
 
-.steps__items {
+.steps__step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.87rem;
+}
+ .step1 {
+  padding-right: 4.5rem;
+ }
+
+.step3 {
+  
+}
+
+.steps__square-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -464,20 +478,21 @@ background-color: #ffffff;
   flex-direction: row;
   justify-content: center;
   flex-wrap: nowrap;
+  gap: 3.75rem;
   overflow: hidden;
-  max-width: 100%;
+  margin: 0 auto;
+  max-width: 100vw;
 }
 
  .destination__img {
   max-width: 50rem;
   max-height: 50rem;
-  margin-right: 3.75rem;
   border-radius: 1rem;
  }
 
  .destination__image-wrapper {
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
  }
 
  .destination__image-desc {
@@ -498,7 +513,7 @@ background-color: #ffffff;
  .destinations__circle-wrapper {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.41rem;
   justify-content: center;
  }
 
@@ -542,44 +557,25 @@ background-color: #ffffff;
 
 /* destination style end */
 
-.background-wrapper {
+/* stories style start */
+.body__wrapper {
   position: relative;
-  height: 83.2rem;
-  width: 90rem;
-  max-width: 100%;
-  max-height: 100%;
-  background-image: url(../images/footage-background.jpg);
+  background: url(../images/footage-background.jpg) no-repeat;
   background-position: bottom;
-  object-fit: cover;
-  background-repeat: no-repeat;
   background-size: auto;
 }
 
-.background-wrapper::after {
-  height: 79.3rem;
-  width: 100%;
-  display: block;
-  content: '';
+.body__wrapper-bg {
   background-color: rgba(255, 255, 255, 0.7);
-  position: absolute;
-  top: 0;
- 
 }
 
-/* stories style start */
-
 .stories {
-  position: relative;
   z-index: 12;
-  padding-top: 2.5rem;
-  margin: 0 7.5rem;
-  max-height: 86.5rem;
-  
 }
 
 .stories__title {
-  padding-bottom: 2.5rem;
-  width: 100%;
+  margin-bottom: 5.1rem;
+  max-width: 100%;
 }
 
 .section__grid-container {
@@ -632,37 +628,37 @@ background-color: #ffffff;
   color: #43aabc;
 }
 
+.stories__button-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .stories__button {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+ margin-bottom: 2.5rem;
+ margin-top: 2.5rem;
 }
 /* stories style end */
 
 /* footer style start */
+.footer {
+  margin: 0 7.5rem; 
+}
 
-.footer__section {
-  position: absolute;
-  z-index: 12;
-  bottom: 0rem;
-  right: 7.5rem;
-  
-  padding-top: 1.4rem;
-  padding-bottom: 1rem;
-  
+.footer-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 19.25rem;
+  height: 3.81rem;
 }
 
-.footer__section-ref {
-  display: flex;
-  justify-content: center;
+.footer__section {
+  z-index: 12;
 }
 
 .footer__ref {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
